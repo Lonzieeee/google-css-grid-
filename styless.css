@@ -87,21 +87,21 @@ input:focus{
     outline: none;
 }
 .search{
-    width: 20px;
+    width: 15px;
     position: absolute;
-    top: 20px;
+    top: 15px;
     left: 18px;
 }
 .mic{
     width: 20px;
     position: absolute;
-    top: 20px;
+    top: 15px;
     left: 500px;
 }
 .image{
     width: 20px;
     position: absolute;
-    top: 20px;
+    top: 15px;
     left: 540px;
 
 }
@@ -176,11 +176,21 @@ p{
         gap: 10px;
     }
     .bottom-link {
-        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         margin-top: 10px;
     }
-    
+   .third{
+    display: none;
+   }
+   /* input{
+    width: 500px;
+  } */
+  .search-wrapper{
+    width: 90%;
+    padding: 50px;
+  }
 }
+
 
 
 @media screen and (max-width: 480px) {
